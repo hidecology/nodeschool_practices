@@ -5,9 +5,8 @@ NODESCHOOL(https://nodeschool.io/ja/)の学習用のレポジトリです。Code
 
 
 - 実行方法
-  - 以下のコマンドを実行して`javascripting`を実行する
-  ```
-  > run_javascripting.sh
-  ```
-
-  - 上記のスクリプトは、そのまま引数を`javascripting`に渡しているので、各種のサブコマンドが利用できる
+  - javascripting
+    - 以下のコマンドを実行する
+      ```
+      > javascripting
+      ```

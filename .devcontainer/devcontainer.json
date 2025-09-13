@@ -1,9 +1,9 @@
 {
-	"name": "Node.js",
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
-	"features": {
-		"ghcr.io/devcontainers-extra/features/jshint:2": {}
-	}
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/jshint:2": {}
+  },
 
-	"postCreateCommand": "yarn install",
+  "postCreateCommand": "yarn install"
 }

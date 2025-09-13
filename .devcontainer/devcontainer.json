@@ -4,6 +4,8 @@
   "features": {
     "ghcr.io/devcontainers-extra/features/jshint:2": {}
   },
-
+  "remoteEnv": {
+    "PATH": "/workspaces/nodeschool_practices/node_modules/.bin:${env:PATH}"
+  },
   "postCreateCommand": "yarn install"
 }
